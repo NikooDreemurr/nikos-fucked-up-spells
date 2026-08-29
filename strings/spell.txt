@@ -1,0 +1,253 @@
+:reverseemperor:
+	:name:
+		The Emperor?
+
+	:description:
+		Use this spell to fight
+		Age Regressor
+
+	:label:
+		Fight Age Regressor
+
+	:charge_category:
+		unlimited
+
+:500_cigarettes:
+	:name:
+		500 Cigarettes
+
+	:description:
+		Convert the entire board AND the queue to Ash Wildcard.
+
+	:label:
+		Five. Hundred. Cigarettes.
+
+	:max_charge:
+		3
+
+	:charge_category:
+		very_common
+
+:ethically_sourced_horse_cum:
+	:name:
+		Ethically Sourced Horse Cum
+
+	:description:
+		Convert the first four row into Enhanced.
+		and the bottom row into Gunk.
+
+	:label:
+		Enhanced and Gunk
+
+	:max_charge:
+		2
+
+	:charge_category:
+		uncommon
+
+:keypad:
+	:name:
+		Keypad
+
+	:description:
+		Transform your board into a keypad
+		for one round
+
+	:label:
+		Keypad for 1 round
+
+	:max_charge:
+		1
+
+	:charge_category:
+		uncommon
+
+:pushpin:
+	:name:
+		Pushpin
+
+	:description:
+		Use this spell to deal 0.1 damage
+		to the enemy, have fun.
+
+	:label:
+		Stab Enemy
+
+	:charge_category:
+		unlimited
+
+:woodenruler:
+	:name:
+		Wooden Ruler
+
+	:description:
+		Expand the Board in the direction of the selected Tile.
+
+	:label:
+		Expand Board
+
+	:banner:
+		Select a direction to expand
+
+	:max_charge:
+		2
+
+	:charge_category:
+		uncommon
+
+:intervention:
+	:name:
+		Intervention
+
+	:description:
+		Use this spell to deal 99 damage
+		to the enemy, have fun.
+		Limited use.
+
+	:label:
+		No-scope enemy
+
+	:charge_category:
+		limited
+
+	:max_charge:
+		1
+
+:thedud:
+	:name:
+		Red Letter
+
+	:description:
+		{:lexicographer: if character "lexicographer"}
+		{:jubilist: if character "jubilist"}
+		{:child: if character "child"}
+		{:fisher: if character "fisher"}
+		{:addict: if character "addict"}
+
+	:lexicographer:
+		Upgrades Letter Opener to Silver Letter Opener.
+		Silver Letter Opener fully charges each turn, and can remove harmful statuses.
+
+	:jubilist:
+		Select a Gift to upgrade to Miracle Cache.
+		Miracle Cache transforms and recharges every turn instead of every battle.
+
+	:child:
+		Upgrades Hole Punch to Scalpel.
+		Scalpel has an additional charge each turn.
+
+	:fisher:
+		Upgrades Fishing Rod to Reinforced Fishing Rod.
+		Reinforced Fishing Rod has a slower reeling speed and can catch more fish.
+
+	:addict:
+		Upgrades Salt to Salt & Pepper.
+		Salt & Pepper bombs convert letters to their respective number, e.g. J to 5 (JKL).
+
+	:label:
+		Character upgrade{"?" if curse "cursed"}
+
+	:documentation:
+		Made you look.
+		[img align=center,center width=30 height=1.2em]res://mods/evil_cat/arte/troll_face.png[/img]
+
+	:charge_category:
+		unlimited
+
+:holybible:
+	:name:
+		Holy Bible
+
+	:description:
+		Convert random tiles into Burning Vowelless Slurs
+
+	:label:
+		Holy Words
+
+	:max_charge:
+		3
+
+	:charge_category:
+		very_common
+
+:lumpsnotebook:
+	:name:
+		Lump's Notebook
+
+	:description:
+		Current category: {:word_category:}
+		Submit a word belonging to the current category for x1.5 damage and defense.
+		Reroll the category after use.
+
+	:word_category:
+		{:colors: if category_number "0"}
+		{:fruits_and_veggies: if category_number "1"}
+		{:animals: if category_number "2"}
+		{:metals: if category_number "3"}
+		{:body_parts: if category_number "4"}
+
+	:colors:
+		Colors
+    
+	:fruits_and_veggies:
+		F&V
+    
+	:animals:
+		Animals
+    
+	:metals:
+		Metals
+    
+	:body_parts:
+		Body Parts
+
+	:label:
+		Submit {:word_category:}
+
+	:max_charge:
+		3
+
+	:charge_category:
+		uncommon
+
+:pepperspray:
+	:name:
+		Pepper Spray
+
+	:description:
+		Disable enemy's attack for 1 turn.
+		Convert random tiles into burning tiles.
+
+	:label:
+		Psssh.
+
+	:max_charge:
+		1
+
+	:charge_category:
+		very_rare
+
+:dealershand:
+	:name:
+		Dealer's Hand
+	:description:
+		Convert random tiles into suit wildcards, forming a random poker hand.
+		Each unique suit gets its own random status.
+	:label:
+		Deal Hand
+	:max_charge:
+		2
+	:charge_category:
+		uncommon
+
+:fireax:
+	:name:
+		Fire Ax
+	:description:
+		Select a tile to set its entire column on fire and slash it.
+	:label:
+		Chop Column
+	:max_charge:
+		3
+	:charge_category:
+		uncommon

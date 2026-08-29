@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cmx1itruk0yq8"]
+
+[ext_resource type="Script" uid="uid://cyt1g7goputcv" path="res://mods/evil_cat/mod.gd" id="1_sqjdt"]
+
+[node name="Mod" type="Node" unique_id=1567430136]
+script = ExtResource("1_sqjdt")
