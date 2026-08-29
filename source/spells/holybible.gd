@@ -12,7 +12,7 @@ func _use():
 
 	# ECHO SAID IF I OVERRIDE THE EXISTING VOWELS HE'LL KILL ME
 	available_tiles = available_tiles.filter(func(tile: Tile):
-		return not tile.face.to_upper() in ["A", "E", "I", "O", "U"]
+		return not tile.face.to_upper() in ["A", "E", "I", "O", "U", "Y"]
 	)
 
 	if available_tiles.is_empty():
@@ -33,7 +33,7 @@ func _use():
 
 		vowelless_word = word
 
-		for vowel in ["A", "E", "I", "O", "U", "a", "e", "i", "o", "u"]:
+		for vowel in ["A", "E", "I", "O", "U", "Y", "a", "e", "i", "o", "u" "y"]: # im not arguing with violeta or everyone in that matter
 			vowelless_word = vowelless_word.replace(vowel, "")
 
 		attempts += 1
