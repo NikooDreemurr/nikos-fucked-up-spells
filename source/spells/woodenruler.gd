@@ -75,6 +75,14 @@ func return_board_if_able() -> void:
 		await tile_board.slide_in()
 
 
+func battle_ended():
+	super.battle_ended()
+
+	# trying to respawn the board
+	saved_board = null
+	tile_board.remove_flag("expanded_board")
+
+
 func get_save_data():
 	var save = super.get_save_data()
 	save.saved_board = saved_board

@@ -82,6 +82,7 @@
 
 	:description:
 		Expand the Board in the direction of the selected Tile.
+		Resets every Act.
 
 	:label:
 		Expand Board
@@ -243,11 +244,175 @@
 :fireax:
 	:name:
 		Fire Ax
+
 	:description:
 		Select a tile to set its entire column on fire and slash it.
+
 	:label:
 		Chop Column
+
 	:max_charge:
 		3
+
 	:charge_category:
 		uncommon
+
+:wristwatch:
+	:name:
+		Wristwatch
+
+	:description:
+		Convert a random amount of tiles into plastic tiles of current time
+
+	:label:
+		Plastic Time
+
+	:max_charge:
+		3
+
+	:charge_category:
+		common
+
+:trainticket:
+	:name:
+		Train Ticket
+
+	:description:
+		Replace a random tile in the queue with the selected tile.
+
+	:label:
+		Queue Tile
+
+	:max_charge:
+		3
+
+	:charge_category:
+		uncommon
+
+:mentholcigarette:
+	:name:
+		Menthol Cigarette
+
+	:description:
+		Convert a tile to a frozen wildcard.
+
+	:label:
+		Ice wildcard
+
+	:charge_category:
+		very_rare
+	
+	:exclude_characters:
+		zx
+
+	:max_charge:
+		3
+
+:exitsign:
+	:name:
+		Exit Sign
+
+	:description:
+		Skip the current encounter.
+		+1 Clearance.
+
+	:label:
+		Skip encounter
+
+	:charge_category:
+		limited
+
+	:max_charge:
+		1
+
+:lithiumpalacell:
+	:name:
+		Lithium Palacell
+
+	:description:
+		Restore 1 charge to a selected spell.
+		Convert random tiles to acid.
+
+	:label:
+		Recharge spell
+
+	:banner:
+		Select a spell to recharge
+
+	:charge_category:
+		uncommon
+
+	:max_charge:
+		2
+
+	:flags:
+		use_while_selecting
+
+:recyclingbin:
+	:name:
+		Recycling Bin
+
+	:description:
+		Remove all plastic tiles.
+		For every 6 tiles removed, convert a random tile into a Money Wildcard.
+
+	:label:
+		Recycle Plastic
+
+	:max_charge:
+		2
+
+	:charge_category:
+		uncommon
+
+:bubblegum:
+	:name:
+		Bubble Gum
+
+	:description:
+		Convert random tiles to candy.
+		Convert random non-gunk tiles to gunk.
+
+	:label:
+		Candy and Gunk
+
+	:charge_characters:
+		p
+
+	:max_charge:
+		3
+
+:instantcoffee:
+	:name:
+		Instant Coffee
+
+	:description:
+		Enable a turn timer for this turn.
+		Every vowels in spelled words are converted into Enhanced before submitting.
+		Sometimes crit.
+
+	:label:
+		Caffeine Rush
+
+	:charge_category:
+		uncommon
+
+	:max_charge:
+		3
+
+:ipa84:
+	:name:
+		ICA19©
+
+	:description:
+		Hole punch the highest tile value in the board.
+		4/8 chance to convert the neighbouring tile into tarnished.
+
+	:label:
+		Assasinate Tile
+
+	:charge_category:
+		uncommon
+
+	:max_charge:
+		3

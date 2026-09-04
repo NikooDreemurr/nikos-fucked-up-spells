@@ -33,7 +33,7 @@ func _use():
 
 		vowelless_word = word
 
-		for vowel in ["A", "E", "I", "O", "U", "Y", "a", "e", "i", "o", "u" "y"]: # im not arguing with violeta or everyone in that matter
+		for vowel in ["A", "E", "I", "O", "U", "Y", "a", "e", "i", "o", "u", "y"]: # im not arguing with violeta or everyone in that matter
 			vowelless_word = vowelless_word.replace(vowel, "")
 
 		attempts += 1
