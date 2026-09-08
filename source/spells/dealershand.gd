@@ -19,7 +19,7 @@ const HANDS = [
 	{name = "three_of_a_kind", groups = [3]},
 	{name = "four_of_a_kind", groups = [4]},
 	{name = "full_house", groups = [3, 2]},
-	{name = "five_of_a_kind", groups = [5]},
+	#{name = "five_of_a_kind", groups = [5]} # 5 acid diamond tiles doesnt sound fun
 ]
 
 
