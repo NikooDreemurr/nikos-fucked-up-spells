@@ -3,7 +3,7 @@ extends Mod
 
 var SPELLS: Dictionary[String, String] = {
 	#REVERSE_EMPEROR = "reverseemperor",
-	#FIVE_HUNDREDS_CIGARETTES = "500_cigarettes",
+	FIVE_HUNDREDS_CIGARETTES = "500_cigarettes",
 	#ETHICALLY_SOURCED_HORSE_CUM = "ethically_sourced_horse_cum",
 	#KEYPAD = "keypad",
 	PUSHPIN = "pushpin",
@@ -28,7 +28,7 @@ var SPELLS: Dictionary[String, String] = {
 
 var SPELL_POOL: Dictionary[String, float] = {
 	#SPELLS.REVERSE_EMPEROR: 1.0,
-	#SPELLS.FIVE_HUNDREDS_CIGARETTES: 1.0,
+	SPELLS.FIVE_HUNDREDS_CIGARETTES: 0.2,
 	#SPELLS.ETHICALLY_SOURCED_HORSE_CUM: 1.0,
 	#SPELLS.KEYPAD: 1.0,
 	SPELLS.PUSHPIN: 1.0,
@@ -63,7 +63,7 @@ var SPELL_CATEGORIES: Dictionary[String, Array] = {
 	],
 	Globals.SPELL_CATEGORY.SUPPORT: [
 		#SPELLS.REVERSE_EMPEROR,
-		#SPELLS.FIVE_HUNDREDS_CIGARETTES,
+		SPELLS.FIVE_HUNDREDS_CIGARETTES,
 		#SPELLS.KEYPAD,
 		SPELLS.WOODEN_RULER,
 		#SPELLS.INTERVENTION,
