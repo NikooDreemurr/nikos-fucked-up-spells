@@ -177,8 +177,7 @@
 
 	:description:
 		Current category: {:word_category:}
-		Submit a word belonging to the current category for x1.5 damage and defense.
-		Reroll the category after use.
+		Submit a word belonging to this category for x1.5 damage and defense.
 
 	:word_category:
 		{:colors: if category_number "0"}
