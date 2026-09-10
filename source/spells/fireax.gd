@@ -12,6 +12,11 @@ func _use():
 		_end_use()
 		return
 
+	if selected_tile.has_effect(TileEffect.SLASHED):
+		selected_tile.animation.play("shake")
+		_end_use()
+		return
+
 	var column = selected_tile.get_coord().x
 
 	var target_tiles = get_tiles({
