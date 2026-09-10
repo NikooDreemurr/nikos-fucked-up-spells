@@ -26,7 +26,7 @@
 		3
 
 	:charge_category:
-		very_common
+		limited
 
 :ethically_sourced_horse_cum:
 	:name:
