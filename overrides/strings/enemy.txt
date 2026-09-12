@@ -1,8 +1,0 @@
-# Overridden string files work in a unique way!
-# Instead of overriding the whole file, they only override the specified strings.
-:cat:
-	:name:
-		Evil Cat
-
-	:phonebook:
-		The honorary lumpenproletariat. Very little Party interference is required to keep a lid on attempts at organizing evil cats.
