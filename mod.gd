@@ -23,7 +23,8 @@ var SPELLS: Dictionary[String, String] = {
 	RECYCLING_BIN = "recyclingbin",
 	BUBBLE_GUM = "bubblegum",
 	INSTANT_COFFEE = "instantcoffee",
-	IPA84 = "ipa84"
+	IPA84 = "ipa84",
+	COUNTERFEIT_RATION = "counterfeitration"
 }
 
 var SPELL_POOL: Dictionary[String, float] = {
@@ -49,6 +50,7 @@ var SPELL_POOL: Dictionary[String, float] = {
 	SPELLS.BUBBLE_GUM: 1.0,
 	#SPELLS.INSTANT_COFFEE: 1.0,
 	SPELLS.IPA84: 1.0,
+	SPELLS.COUNTERFEIT_RATION: 1.0
 }
 
 var SPELL_CATEGORIES: Dictionary[String, Array] = {
@@ -72,6 +74,7 @@ var SPELL_CATEGORIES: Dictionary[String, Array] = {
 		SPELLS.LITHIUM_PALACELL,
 		SPELLS.RECYCLING_BIN,
 		SPELLS.IPA84,
+		SPELLS.COUNTERFEIT_RATION
 	],
 	Globals.SPELL_CATEGORY.OFFENSIVE: [
 		SPELLS.ETHICALLY_SOURCED_HORSE_CUM,

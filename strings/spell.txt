@@ -415,3 +415,20 @@
 
 	:max_charge:
 		3
+
+:counterfeitration:
+	:name:
+		Counterfeit Ration
+
+	:description:
+		Shuffle the charge and max charge of all your owned spells
+		amongst each other.
+
+	:label:
+		Shuffle Charges
+
+	:charge_category:
+		limited
+
+	:max_charge:
+		1
