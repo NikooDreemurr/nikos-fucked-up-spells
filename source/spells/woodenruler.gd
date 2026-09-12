@@ -4,7 +4,35 @@ extends Spell
 var saved_board = null
 
 
+func _ready():
+	super._ready()
+	tile_board.turn_ended.connect(_on_turn_ended)
+
+
+func return_board_if_able() -> void:
+	if saved_board == null:
+		return
+
+	if not tile_board.has_flag("expanded_board"):
+		return
+
+	await tile_board.slide_out()
+
+	await tile_board.reset_tiles(true)
+
+	tile_board.load_tile_state_save_data(saved_board, true)
+
+	saved_board = null
+	tile_board.remove_flag("expanded_board")
+
+	await tile_board.slide_in()
+
+
 func _use():
+	if tile_board.has_flag("expanded_board"):
+		_end_use()
+		return
+
 	var selected_tile = await get_selection()
 
 	if selected_tile == null:
@@ -20,17 +48,14 @@ func _use():
 	var new_width = width
 	var new_height = height
 
-	# Bottom edge
 	if coord.y == height - 1:
 		expand_mode = TileBoard.ExpandMode.BOTTOM_LEFT
 		new_height += 1
 
-	# Top edge
 	elif coord.y == 0:
 		expand_mode = TileBoard.ExpandMode.TOP_RIGHT
 		new_height += 1
 
-	# Left/right edge
 	elif coord.x == 0 or coord.x == width - 1:
 		expand_mode = TileBoard.ExpandMode.CENTER
 		new_width += 1
@@ -63,22 +88,13 @@ func _use():
 	_post_use()
 
 
-func return_board_if_able() -> void:
-	if saved_board != null and tile_board.has_flag("expanded_board"):
-		await tile_board.slide_out()
-
-		tile_board.load_tile_state_save_data(saved_board, true)
-
-		saved_board = null
-		tile_board.remove_flag("expanded_board")
-
-		await tile_board.slide_in()
+func _on_turn_ended(): # 2 checks cus why not
+	if tile_board.has_flag("expanded_board"):
+		await return_board_if_able()
 
 
 func battle_ended():
 	super.battle_ended()
-
-	# trying to respawn the board
 	saved_board = null
 	tile_board.remove_flag("expanded_board")
 

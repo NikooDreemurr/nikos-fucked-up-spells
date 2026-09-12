@@ -24,23 +24,19 @@ func return_board():
 
 func _use():
 	tile_board.turn_ended.connect(_on_turn_ended)
-	# Don't allow the spell to activate while already using the keypad.
 	if tile_board.has_flag("spell_keypad"):
 		_end_use()
 		return
 
-	# Save the current board.
 	saved_board = tile_board.get_tile_state_save_data(true)
 
 	await tile_board.slide_out()
 	await tile_board.reset_tiles(true)
 
-	# Make a 3x3 keypad board.
 	tile_board.set_size(3, 3, 0, 0, true, 0.0)
 	tile_board.queue.clear_outside_columns()
 	tile_board.update_previews()
 
-	# Create the 9 keypad tiles.
 	for number in range(9):
 		var tile: Tile = tile_board.create_tile()
 		main.add_child(tile)

@@ -82,7 +82,7 @@
 
 	:description:
 		Expand the Board in the direction of the selected Tile.
-		Resets every Act.
+		Resets every turn.
 
 	:label:
 		Expand Board
@@ -91,7 +91,7 @@
 		Select a direction to expand
 
 	:max_charge:
-		2
+		1
 
 	:charge_category:
 		uncommon
