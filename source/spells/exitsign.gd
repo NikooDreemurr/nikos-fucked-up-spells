@@ -1,6 +1,6 @@
 extends Spell
 
-const SEEYA = preload("res://mods/evil_cat/sounds/spells/discordleave.wav")
+const SEEYA = preload("res://mods/fun_spells/sounds/spells/discordleave.wav")
 
 func _use():
 	if Game.enemy == null:

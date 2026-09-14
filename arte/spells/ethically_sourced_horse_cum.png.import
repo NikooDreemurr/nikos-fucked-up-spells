@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lenafwbhmhcj"
-path="res://.godot/imported/ethically_sourced_horse_cum.png-29a8c6517dd0f9f8aa673343013b859b.ctex"
+path="res://.godot/imported/ethically_sourced_horse_cum.png-78f67054e9b384ee9171e8b2fc8f5841.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods/evil_cat/arte/spells/ethically_sourced_horse_cum.png"
-dest_files=["res://.godot/imported/ethically_sourced_horse_cum.png-29a8c6517dd0f9f8aa673343013b859b.ctex"]
+source_file="res://mods/fun_spells/arte/spells/ethically_sourced_horse_cum.png"
+dest_files=["res://.godot/imported/ethically_sourced_horse_cum.png-78f67054e9b384ee9171e8b2fc8f5841.ctex"]
 
 [params]
 

@@ -1,6 +1,6 @@
 extends Spell
 
-const FAGGOT = preload("res://mods/evil_cat/sounds/spells/fivehundredscigar.wav")
+const FAGGOT = preload("res://mods/fun_spells/sounds/spells/fivehundredscigar.wav")
 
 func set_status_tooltips():
 	status_tooltips = [TileStatus.ASH, "wildcard"]

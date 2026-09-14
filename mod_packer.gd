@@ -12,7 +12,7 @@ const IGNORED_EXTENSIONS = [
 	"zip"
 ]
 
-var mod_id: String = "evil_cat"
+var mod_id: String = "fun_spells"
 var pack_name: = "niko_additions_r_cool"
 var pack_zip: = false
 

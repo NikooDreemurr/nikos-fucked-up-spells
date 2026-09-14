@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mkn8sh3entoo"
-path="res://.godot/imported/fireax.png-430f6434810de0cbb90456658bc8bf09.ctex"
+path="res://.godot/imported/fireax.png-b1c164382a562a30e897e519961a5289.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods/evil_cat/arte/spells/fireax.png"
-dest_files=["res://.godot/imported/fireax.png-430f6434810de0cbb90456658bc8bf09.ctex"]
+source_file="res://mods/fun_spells/arte/spells/fireax.png"
+dest_files=["res://.godot/imported/fireax.png-b1c164382a562a30e897e519961a5289.ctex"]
 
 [params]
 

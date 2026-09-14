@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b4bhfjfpy3dyd"
-path="res://.godot/imported/fivehundredscigar.wav-48a1479f9242a190a6b4c87733d72c37.sample"
+path="res://.godot/imported/fivehundredscigar.wav-58167c2506e5e9a7a9f2b777a978101b.sample"
 
 [deps]
 
-source_file="res://mods/evil_cat/sounds/spells/fivehundredscigar.wav"
-dest_files=["res://.godot/imported/fivehundredscigar.wav-48a1479f9242a190a6b4c87733d72c37.sample"]
+source_file="res://mods/fun_spells/sounds/spells/fivehundredscigar.wav"
+dest_files=["res://.godot/imported/fivehundredscigar.wav-58167c2506e5e9a7a9f2b777a978101b.sample"]
 
 [params]
 

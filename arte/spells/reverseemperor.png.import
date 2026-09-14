@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqpov3fdocxtr"
-path="res://.godot/imported/reverseemperor.png-ffe39194189209b706a9271f3d0f352f.ctex"
+path="res://.godot/imported/reverseemperor.png-b767fbb59bad3a50cadf0cbded820101.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods/evil_cat/arte/spells/reverseemperor.png"
-dest_files=["res://.godot/imported/reverseemperor.png-ffe39194189209b706a9271f3d0f352f.ctex"]
+source_file="res://mods/fun_spells/arte/spells/reverseemperor.png"
+dest_files=["res://.godot/imported/reverseemperor.png-b767fbb59bad3a50cadf0cbded820101.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlg2yackttpyd"
-path="res://.godot/imported/ipa84.png-4e2883a47c982a3c95faea7eb76cf92f.ctex"
+path="res://.godot/imported/ipa84.png-31030142e0c03326b4c40def3842db65.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods/evil_cat/arte/spells/ipa84.png"
-dest_files=["res://.godot/imported/ipa84.png-4e2883a47c982a3c95faea7eb76cf92f.ctex"]
+source_file="res://mods/fun_spells/arte/spells/ipa84.png"
+dest_files=["res://.godot/imported/ipa84.png-31030142e0c03326b4c40def3842db65.ctex"]
 
 [params]
 

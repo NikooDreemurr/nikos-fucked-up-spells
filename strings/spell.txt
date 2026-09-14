@@ -150,7 +150,7 @@
 
 	:documentation:
 		Made you look.
-		[img align=center,center width=30 height=1.2em]res://mods/evil_cat/arte/troll_face.png[/img]
+		[img align=center,center width=30 height=1.2em]res://mods/fun_spells/arte/troll_face.png[/img]
 
 	:charge_category:
 		unlimited
@@ -404,17 +404,17 @@
 		ICA19©
 
 	:description:
-		Hole punch the highest tile value in the board.
-		4/8 chance to convert the neighbouring tile into tarnished.
+		Convert the selected tile's face into {:max_charge:} wildcards.
+		Decreases by one each use.
 
 	:label:
 		Assasinate Tile
 
 	:charge_category:
-		uncommon
+		limited
 
 	:max_charge:
-		3
+		7
 
 :counterfeitration:
 	:name:
@@ -432,3 +432,119 @@
 
 	:max_charge:
 		1
+
+:bloodbag:
+	:name:
+		Blood Bag
+
+	:description:
+		Take 1 damage. Convert the selected tile into a Crit tile
+		with your character's blood type.
+
+	:label:
+		Donate Blood
+
+	:max_charge:
+		2
+
+	:charge_category:
+		uncommon
+
+:doxxpills:
+	:name:
+		Doxx
+
+	:description:
+		Convert the selected tile into a {status_name} {number} tile.
+		derived from the last letter of the current enemy's name.
+
+	:label:
+		{status_name} {number}
+
+	:charge_category:
+		uncommon
+
+	:max_charge:
+		3
+
+:pissmypants:
+	:name:
+		Saw
+
+	:description:
+		Select a tile to freeze and slash its entire {:column: if is_column "true"}{:row: if is_column "false"}.
+
+	:saw:
+		Saw
+
+	:goldensaw:
+		Golden Saw
+
+	:column:
+		column
+
+	:row:
+		row
+
+	:label:
+		Freeze Slash
+
+	:charge_category:
+		very_rare
+
+	:max_charge:
+		3
+
+:ak47:
+	:name:
+		AK-47
+
+	:description:
+		4/7 chance to replace tile face with 47 (GHI & PQRS).
+		3/7 chance to hole punch the entire row instead.
+
+	:label:
+		47 or full auto
+
+	:max_charge:
+		2
+
+	:exclude_characters:
+		ghipqrs
+
+	:charge_category:
+		uncommon
+
+:linguisticdrift:
+	:name:
+		Linguistic Drift
+
+	:description:
+		Convert the selected tile into an Enhanced A.
+		The tile to its right becomes a Crit L or LL.
+
+	:label:
+		"All right"
+
+	:charge_category:
+		uncommon
+
+	:max_charge:
+		3
+
+:qolbook:
+	:name:
+		QoL Book
+
+	:description:
+		Convert random tiles into letters, one for each digit of your
+		lifetime vocabulary size.
+
+	:label:
+		Vocab Size
+
+	:max_charge:
+		3
+	
+	:charge_category:
+		uncommon

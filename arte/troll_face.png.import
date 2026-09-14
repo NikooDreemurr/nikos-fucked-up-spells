@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://uw1k54flkimr"
-path="res://.godot/imported/troll_face.png-c02dc3133aa3a3a0725993d9621f0b66.ctex"
+path="res://.godot/imported/troll_face.png-9a9c51f2e05618617af42c4b5c968f17.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods/evil_cat/arte/troll_face.png"
-dest_files=["res://.godot/imported/troll_face.png-c02dc3133aa3a3a0725993d9621f0b66.ctex"]
+source_file="res://mods/fun_spells/arte/troll_face.png"
+dest_files=["res://.godot/imported/troll_face.png-9a9c51f2e05618617af42c4b5c968f17.ctex"]
 
 [params]
 

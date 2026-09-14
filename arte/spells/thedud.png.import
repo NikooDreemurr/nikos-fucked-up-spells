@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkmxmo0ot2ykd"
-path="res://.godot/imported/thedud.png-d5f770ba9289c13d9e2269c5dd87b7df.ctex"
+path="res://.godot/imported/thedud.png-4e813af1cb2326616159f8e9d8888c53.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods/evil_cat/arte/spells/thedud.png"
-dest_files=["res://.godot/imported/thedud.png-d5f770ba9289c13d9e2269c5dd87b7df.ctex"]
+source_file="res://mods/fun_spells/arte/spells/thedud.png"
+dest_files=["res://.godot/imported/thedud.png-4e813af1cb2326616159f8e9d8888c53.ctex"]
 
 [params]
 

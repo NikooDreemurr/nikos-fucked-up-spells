@@ -1,40 +1,21 @@
-extends Spell
+extends TileModifierSpell
 
 
 func set_status_tooltips():
-	status_tooltips = [TileStatus.HOLE, TileStatus.POOP]
+	status_tooltips = [TileEffect.WILDCARD]
 
 
-func _use():
-	var board_tiles = get_tiles({
-		amount = 999,
-		effect_priority = EFFECT_PRIORITY.STATUS_AND_FACE,
-	})
+func apply_to_tile(tile: Tile, _real_tile: Tile, is_preview: bool, _is_preview_update: bool) -> void :
+	tile.set_face("*".repeat(max_charge))
 
-	if board_tiles.is_empty():
-		_end_use()
-		return
+	if not is_preview:
+		AudioManager.play_sound(Sounds.SPELLS.GUNSHOT)
+		tile.add_poofcloud(tile.get_color())
 
-	var highest_tile: Tile = board_tiles[0]
-	var highest_value: = Letters.get_face_value(highest_tile.faces)
 
-	for tile in board_tiles:
-		var value: = Letters.get_face_value(tile.faces)
-		if value > highest_value:
-			highest_value = value
-			highest_tile = tile
-
-	AudioManager.play_sound(Sounds.SPELLS.GUNSHOT)
-	highest_tile.apply_hole(true)
-	highest_tile.add_poofcloud(Globals.COLORS.SMOKE)
-
-	var neighbor_tiles = highest_tile.get_board_neighbors()
-
-	for neighbor in neighbor_tiles:
-		if rng.spell.randf() < (4.0 / 8.0):
-			neighbor.add_status(TileStatus.POOP)
-			neighbor.add_poofcloud(neighbor.get_color())
-
-			await Game.timeout(0.1)
-
-	_post_use()
+func is_tile_selectable(tile: Tile) -> bool:
+	return (
+		tile.is_face_modifiable()
+		and not tile.has_harmful_status()
+		and not tile.only_face_is("*".repeat(max_charge))
+	)

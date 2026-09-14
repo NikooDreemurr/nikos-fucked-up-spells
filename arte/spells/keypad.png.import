@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx4fvoa6k1dgu"
-path="res://.godot/imported/keypad.png-c9ac7b157052c2fcf87a3a38dd723d6f.ctex"
+path="res://.godot/imported/keypad.png-f83c76302dd8cb26b36b23a512d49eae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods/evil_cat/arte/spells/keypad.png"
-dest_files=["res://.godot/imported/keypad.png-c9ac7b157052c2fcf87a3a38dd723d6f.ctex"]
+source_file="res://mods/fun_spells/arte/spells/keypad.png"
+dest_files=["res://.godot/imported/keypad.png-f83c76302dd8cb26b36b23a512d49eae.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bkosa4jmx81es"
-path="res://.godot/imported/damnson.wav-f61545419c223a3aa7806b628d09a2c7.sample"
+path="res://.godot/imported/damnson.wav-bdaca42bc8f293eeea05b91cf94da8e4.sample"
 
 [deps]
 
-source_file="res://mods/evil_cat/sounds/spells/damnson.wav"
-dest_files=["res://.godot/imported/damnson.wav-f61545419c223a3aa7806b628d09a2c7.sample"]
+source_file="res://mods/fun_spells/sounds/spells/damnson.wav"
+dest_files=["res://.godot/imported/damnson.wav-bdaca42bc8f293eeea05b91cf94da8e4.sample"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c0nrogtt0katq"
-path="res://.godot/imported/discordleave.wav-026ff173fa2dc38dd473fa3c26177aef.sample"
+path="res://.godot/imported/discordleave.wav-e03db3ae3e9fbb24f5d908b9cc2a5a5b.sample"
 
 [deps]
 
-source_file="res://mods/evil_cat/sounds/spells/discordleave.wav"
-dest_files=["res://.godot/imported/discordleave.wav-026ff173fa2dc38dd473fa3c26177aef.sample"]
+source_file="res://mods/fun_spells/sounds/spells/discordleave.wav"
+dest_files=["res://.godot/imported/discordleave.wav-e03db3ae3e9fbb24f5d908b9cc2a5a5b.sample"]
 
 [params]
 

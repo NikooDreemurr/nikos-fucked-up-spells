@@ -1,6 +1,6 @@
 extends Spell
 
-const NEIGH = preload("res://mods/evil_cat/sounds/spells/horsecum.wav")
+const NEIGH = preload("res://mods/fun_spells/sounds/spells/horsecum.wav")
 
 func set_status_tooltips():
 	status_tooltips = [TileStatus.ENHANCED, TileStatus.GUNK]

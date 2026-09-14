@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddjyqwldl64j"
-path="res://.godot/imported/pushpin.png-89ea35efe6271742853c142470d66500.ctex"
+path="res://.godot/imported/pushpin.png-3753d0d1e1b3f33c12a8b3e85554b09a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods/evil_cat/arte/spells/pushpin.png"
-dest_files=["res://.godot/imported/pushpin.png-89ea35efe6271742853c142470d66500.ctex"]
+source_file="res://mods/fun_spells/arte/spells/pushpin.png"
+dest_files=["res://.godot/imported/pushpin.png-3753d0d1e1b3f33c12a8b3e85554b09a.ctex"]
 
 [params]
 

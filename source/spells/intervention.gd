@@ -1,6 +1,6 @@
 extends Spell
 
-const DAMNSON = preload("res://mods/evil_cat/sounds/spells/damnson.wav")
+const DAMNSON = preload("res://mods/fun_spells/sounds/spells/damnson.wav")
 
 func _use():
 

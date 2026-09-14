@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dhlruf3a22q25"
-path="res://.godot/imported/horsecum.wav-3a5d0640fdccd14dc1f8bf8e0842c145.sample"
+path="res://.godot/imported/horsecum.wav-ba69f43d205e3c94d4ea5aae5c6e95ee.sample"
 
 [deps]
 
-source_file="res://mods/evil_cat/sounds/spells/horsecum.wav"
-dest_files=["res://.godot/imported/horsecum.wav-3a5d0640fdccd14dc1f8bf8e0842c145.sample"]
+source_file="res://mods/fun_spells/sounds/spells/horsecum.wav"
+dest_files=["res://.godot/imported/horsecum.wav-ba69f43d205e3c94d4ea5aae5c6e95ee.sample"]
 
 [params]
 

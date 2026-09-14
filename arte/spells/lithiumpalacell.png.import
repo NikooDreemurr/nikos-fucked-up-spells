@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4e0krlu5xql8"
-path="res://.godot/imported/lithiumpalacell.png-2cae6494646a8134f244f03fbba55cbe.ctex"
+path="res://.godot/imported/lithiumpalacell.png-7c8ad89cc1eabf04fe97fb5de97d274e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods/evil_cat/arte/spells/lithiumpalacell.png"
-dest_files=["res://.godot/imported/lithiumpalacell.png-2cae6494646a8134f244f03fbba55cbe.ctex"]
+source_file="res://mods/fun_spells/arte/spells/lithiumpalacell.png"
+dest_files=["res://.godot/imported/lithiumpalacell.png-7c8ad89cc1eabf04fe97fb5de97d274e.ctex"]
 
 [params]
 
