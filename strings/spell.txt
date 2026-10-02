@@ -215,7 +215,7 @@
 		Pepper Spray
 
 	:description:
-		Disable enemy's attack for 1 turn.
+		Delay enemy's attack for next turn.
 		Convert random tiles into burning tiles.
 
 	:label:
@@ -548,3 +548,211 @@
 	
 	:charge_category:
 		uncommon
+
+:spinner:
+	:name:
+		Fidget Spinner
+
+	:description:
+		Spin a random tile face and 
+		convert it based on their degrees.
+
+	:label:
+		Spin Letter
+
+	:charge_category:
+		uncommon
+
+	:max_charge:
+		3
+
+:nickel:
+	:name:
+		Nickel
+
+	:description:
+		Rapidly cycle the tile status twice. Click the tile again to stop cycling.
+		
+	:label:
+		Cycle Status
+
+	:charge_category:
+		common
+
+	:max_charge:
+		3
+
+:crookeddime:
+	:name:
+		Crooked Dime
+
+	:description:
+		Rapidly cycle a tile’s face through the alphabet BACKWARDS twice. Click the tile again to stop cycling.
+
+	:label:
+		Cycle retteL
+
+	:charge_category:
+		common
+
+	:max_charge:
+		3
+
+:h:
+	:name:
+		h
+
+	:description:
+		Heals you by 1.
+		1/2 chance to crash the game each use
+
+	:label:
+		+1 Health
+
+	:charge_category:
+		unlimited
+
+:calendar:
+	:name:
+		Calendar
+
+	:description:
+		May convert a random tile to a slashed number
+		of the current date/month.
+
+	:label:
+		Date/Month
+
+	:charge_category:
+		uncommon
+
+	:max_charge:
+		3
+
+:gambaslot:
+	:name:
+		Portable Slot
+
+	:description:
+		Spin your board vertically.
+		If 3 Crit tiles lines up
+		turn all tiles into Crits.
+
+	:label:
+		Aw Damnit!
+
+	:charge_category:
+		rare
+
+	:max_charge:
+		3
+
+:stapleremover:
+	:name:
+		Staple Remover
+
+	:description:
+		Split n-gram tile face
+		and place it in the adjacent
+		of this tile.
+
+	:label:
+		Split Letter
+
+	:charge_category:
+		uncommon
+
+	:max_charge:
+		3
+
+:counterfeitgirlpills:
+	:name:
+		Counterfeit Girl Pills
+
+	:description:
+		Convert a tile to a plastic SS or 88.
+		Convert a random adjacent tile to Haze.
+
+	:label:
+		Plastic and Haze
+
+	:charge_characters:
+		h
+
+	:max_charge:
+		3
+
+:smileyassistant:
+	:name:
+		Smiley Assistant
+
+	:description:
+		Convert the selected tile face to TY
+
+	:label:
+		Convert to TY
+
+	:charge_category:
+		auto
+
+	:max_charge:
+		4
+
+:vigenere:
+	:name:
+		Vigenère Chiper
+
+	:description:
+		Select a row to shift.
+		Each tile's face is shifted through the alphabet based on 
+		the corresponding letter in the spelled word.
+
+	:preview_description:
+		Select the row to shift.
+
+	:label:
+		Shift row
+
+	:charge_category:
+		auto
+
+	:max_charge:
+		4
+
+:four_point_leading:
+	:name:
+		4-Point Leading
+
+	:description:
+		Swap the position of any two rows.
+
+	:label:
+		Swap rows
+
+	:banner:
+		{"Select a row to swap" not swapping}{"Select a row to swap with" if swapping}
+
+	:charge_category:
+		unlimited
+
+	:flags:
+		removes_word
+
+:theorice:
+	:name:
+		Theorice
+
+	:description:
+		Reroll spells in the spell selection.
+
+	:label:
+		Reroll spells
+
+	:charge_category:
+		auto
+
+	:max_charge:
+		4
+
+	:flags:
+		use_while_selecting

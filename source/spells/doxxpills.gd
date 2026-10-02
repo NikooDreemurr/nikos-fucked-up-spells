@@ -22,7 +22,7 @@ var frame: int = 0
 func _setup_enemy_id(enemy_id: Variant) -> void :
 	if enemy_id == null:
 		number = "3"
-		status = TileStatus.DEFAULT
+		status = TileStatus.GAY
 		hue_offset = 0.0
 		saturation_offset = 0.0
 		return
